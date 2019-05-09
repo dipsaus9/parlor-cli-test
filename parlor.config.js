@@ -1,14 +1,16 @@
+const env = require('./config/latest');
+
 module.exports = {
-  projectId: 5,
-  username: "dipsaus",
-  password: "admin",
-  typoSettingsFilename: "_usage.scss",
-  typoEmbedFilename: "_embed.scss",
-  colorFilename: "_custom-colors.scss",
-  grid: "grid",
-  gridFilename: "_grid.scss",
-  fonts: "scss",
-  images: "static",
-  colors: "color",
-  typoFolder: "typography"
+	projectId: 26,
+	username: env.username,
+	password: env.password,
+	typoSettingsFilename: '_usage.scss',
+	typoEmbedFilename: '_embed.scss',
+	colorFilename: '_custom-colors.scss',
+	gridFilename: '_grid.scss',
+	fonts: 'assets/scss/fonts',
+	images: 'static/images',
+	colors: 'assets/sccs/color',
+	grid: 'assets/grid',
+	typoFolder: 'assets/scss/typography'
 };
