@@ -18,10 +18,10 @@
 		"parlor": "parlor --dev"
 	},
 	"dependencies": {
+		"@matise/parlor-cli": "^0.1.6",
 		"@nuxtjs/axios": "^5.4.1",
 		"@nuxtjs/google-analytics": "^2.2.0",
-		"nuxt": "^2.6.1",
-		"parlor": "^0.1.5"
+		"nuxt": "^2.6.1"
 	},
 	"devDependencies": {
 		"nuxt-rfg-icon": "^0.6.3",
