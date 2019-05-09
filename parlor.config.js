@@ -8,7 +8,7 @@ module.exports = {
 	typoEmbedFilename: '_embed.scss',
 	colorFilename: '_custom-colors.scss',
 	gridFilename: '_grid.scss',
-	fonts: 'assets/scss/fonts',
+	fonts: 'assets/fonts',
 	images: 'static/images',
 	colors: 'assets/scss/color',
 	grid: 'assets/scss/grid',
