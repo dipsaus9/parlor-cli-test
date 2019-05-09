@@ -10,7 +10,7 @@ module.exports = {
 	gridFilename: '_grid.scss',
 	fonts: 'assets/scss/fonts',
 	images: 'static/images',
-	colors: 'assets/sccs/color',
-	grid: 'assets/grid',
+	colors: 'assets/scss/color',
+	grid: 'assets/scss/grid',
 	typoFolder: 'assets/scss/typography'
 };
