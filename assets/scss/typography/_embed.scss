@@ -1,27 +1,47 @@
-// $font-primary: (
-// 	font-family: (
-// 		Graphik,
-// 		serif
-// 	),
-// 	load: true,
-// 	weights: (
-// 		'Light': 100,
-// 		'Regular': 400,
-// 		'Medium': 500,
-// 		'Bold': 600
-// 	),
-// 	path: '~/fonts',
-// 	files: (
-// 		'woff2',
-// 		'ttf',
-// 		'eot'
-// 	),
-// 	use: (
-// 		'p',
-// 		'body'
-// 	),
-// 	types: (
-// 		'normal',
-// 		'italic'
-// 	)
-// );
+$font-primary: (
+	font-family: (
+		Merriweather,
+		serif
+	),
+	load: true,
+	weights: (
+		'Bold': 700,
+		'Regular': 400
+	),
+	path: '~assets/fonts',
+	files: (
+		'woff2'
+	),
+	use: (
+		'h1',
+		'h2',
+		'h3',
+		'h4',
+		'h5'
+	),
+	types: (
+		'normal'
+	)
+);
+
+$font-secondary: (
+	font-family: (
+		Lato,
+		serif
+	),
+	load: true,
+	weights: (
+		'Regular': 400,
+		'Semibold': 600
+	),
+	path: '~assets/fonts',
+	files: (
+		'woff2'
+	),
+	use: (
+		'p'
+	),
+	types: (
+		'normal'
+	)
+);

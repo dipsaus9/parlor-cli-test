@@ -1,11 +1,57 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: inherit;
-  &.sub {
-    font-weight: 400;
-  }
+* {
+	text-rendering: optimizeLegibility;
 }
+h1 {
+	font-weight: 700;
+	font-size: grid(80/80);
+	@include min-('font-size', 1, 80);
+	line-height: 1;
+	color: #313335;
+	letter-spacing: -2px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: grid(40/80);
+	@include min-('font-size', 0.5, 40);
+	line-height: 1.25;
+	color: #313335;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: grid(24/80);
+	@include min-('font-size', 0.3, 24);
+	line-height: 1.33;
+	color: #313335;
+	letter-spacing: -0.6px;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: grid(20/80);
+	@include min-('font-size', 0.25, 20);
+	line-height: 1.4;
+	color: #ffffff;
+	letter-spacing: -0.5px;
+}
+
+h5 {
+	font-weight: 700;
+	font-size: grid(24/80);
+	@include min-('font-size', 0.3, 24);
+	line-height: 1.33;
+	color: #ffffff;
+	letter-spacing: -0.6px;
+}
+
+p {
+	font-weight: 400;
+	font-size: rem(18);
+	line-height: 1.47;
+	color: #f04e40;
+	letter-spacing: -0.45px; 
+}
+
+
